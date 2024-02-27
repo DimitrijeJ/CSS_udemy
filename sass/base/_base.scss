@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    /* starter za svaku stranicu: margin i padding svakog elementa je 0 po defaultu, svako dodavanje margin i paddinga ce se uracunavati u okviru width i height contenta tako da fituje u okviru parent elementa */
+}
+
+html {
+    font-size: 62.5%;
+    /* postavljen font-size da bi se radilo manje kalkulacija i sve svelo na rem mernu jedinicu */
+}
+
+body {
+    box-sizing: border-box;
+}
